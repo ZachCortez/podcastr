@@ -58,8 +58,6 @@ A cutting-edge AI SaaS platform that enables users to create, discover, and enjo
 
 👉 **Responsive Design**: Fully functional and visually appealing across all devices and screen sizes.
 
-and many more, including code architecture and reusability 
-
 
 
 
