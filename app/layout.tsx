@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Podcastr",
   description: "Generated your podcasts using AI",
   icons: {
-    icon:'/icons/logo.svg'
+    icon: '/icons/logo.svg'
   }
 };
 
@@ -19,7 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   );
 }
