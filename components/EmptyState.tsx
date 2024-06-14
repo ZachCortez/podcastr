@@ -11,7 +11,8 @@ const EmptyState = ({ title, search, buttonLink, buttonText }: EmptyStateProps) 
       <div className="flex-center w-full max-w-[254px] flex-col gap-3">
         <h1 className="text-16 text-center font-medium text-white-1">{title}</h1>
         {search && (
-          <p className="text-16 text-center font-medium text-white-2">Try adjusting your search to find what you are looking for</p>
+          <p className="text-16 text-center font-medium text-white-2"
+          >Try adjusting your search to find what you are looking for</p>
         )}
         {buttonLink && (
           <Button className="bg-orange-1">
