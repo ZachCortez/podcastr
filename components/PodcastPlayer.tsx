@@ -7,7 +7,7 @@ import { formatTime } from "@/lib/formatTime";
 import { cn } from "@/lib/utils";
 import { useAudio } from "@/providers/AudioProvider";
 
-import { Progress } from "@/components/ui/progess";
+import { Progress } from "@/components/ui/progress";
 
 const PodcastPlayer = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
